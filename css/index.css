@@ -693,7 +693,6 @@ body {
     width: 28%;
     margin: 1.5%;
     background-color: #191919;
-    ;
     display: inline-block;
     box-shadow: 0px 0px 25px rgb(0, 0, 0, .05);
     position: relative;
@@ -716,8 +715,7 @@ body {
     border-radius: 30%;
     padding: 10px;
     border: 0px solid #c70039;
-
-    box-shadow: 0px 0px 0px 0px #c70039;
+    box-shadow: 0px 0px 0px #c70039;
     height: 200px;
     transition: all .8s ease;
 }
@@ -1375,12 +1373,12 @@ form button:hover {
     flex-direction: row;
     align-items: center;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 15%;
 }
 
 .contact-info-icon-text {
     color: whitesmoke;
-    padding: 15px;
+    padding: 5px;
     font-family: poppins;
 }
 
@@ -1745,10 +1743,10 @@ For devices with smaller width like mobile phone
         display: inline-block;
         z-index: 2;
         position: relative;
-        margin: 20px;
+        margin: 10px;
         border-radius: 30%;
-        padding: 10px;
-        height: 150px;
+        padding: 5px;
+        height: 190px;
         transition: all .8s ease;
     }
 
@@ -1774,9 +1772,6 @@ For devices with smaller width like mobile phone
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 1.5%;
-        padding-right: 2%;
-        padding-top: 50px;
         padding-bottom: 40px;
     }
 
@@ -1820,12 +1815,12 @@ For devices with smaller width like mobile phone
     }
 
     .portfolio-image img {
-        height: 300px;
+        height: 100%;
         width: 100%;
     }
 
     .portfolio-image {
-        height: 300px;
+        height: 90%;
         width: 90%;
     }
 
@@ -2057,12 +2052,12 @@ For devices with smaller width like mobile phone
         flex-direction: row;
         align-items: center;
         text-align: left;
-        margin-left: 5%;
+        margin-left: 15%;
     }
 
     .contact-info-icon-text {
         color: whitesmoke;
-        padding: 15px;
+        padding: 8px;
         font-family: poppins;
     }
 
@@ -2322,9 +2317,6 @@ for tabs and large phones
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 1.5%;
-        padding-right: 2%;
-        padding-top: 50px;
         padding-bottom: 40px;
     }
 
@@ -2368,13 +2360,13 @@ for tabs and large phones
     }
 
     .portfolio-image img {
-        height: 380px;
+        height: 100%;
         width: 100%;
         position: relative;
     }
 
     .portfolio-image {
-        height: 380px;
+        height: 70%;
         width: 70%;
     }
 
@@ -2606,7 +2598,7 @@ for tabs and large phones
         flex-direction: row;
         align-items: center;
         text-align: left;
-        margin-left: 30%;
+        margin-left: 15%;
     }
 
     .hire-me-section {
